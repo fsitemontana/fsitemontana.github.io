@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title>
+                Контакти
+        </title>
+            <meta name="robots" content="noindex">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="Инкомм контакти">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/css/app.b90cbeb3.css">
+        <link rel="stylesheet" type="text/css" href="/icons/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400">
+        <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.cccce3f9.ico">
+        <link rel="icon" type="image/x-icon" href="/img/favicon.cccce3f9.ico">
+        <meta itemprop="image" content="/img/social-image.jpg">
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="content">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+            
+                        <a
+                         class="navbar-brand"
+                         href="/">
+                            <img
+                             src="/img/logo.3ae2fdd6.svg"
+                             width="175"
+                             alt="Enhancv Logo">
+                        </a>
+            
+            
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+            
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+                        <ul class="nav navbar-nav navbar-right">
+                            <li >
+                                <a href="/">НАЧАЛО</a>
+                            </li>
+                            <li >
+                                <a href="/products">ПРОДУКТИ</a>
+                            </li>
+                            <li >
+                                <a href="/services.html">УСЛУГИ</a>
+                            </li>
+                            <li >
+                                <a href="/regulations.html">НОРМ.УРЕДБИ</a>
+                            </li>
+                            <li  class="active" >
+                                <a href="/contacts.html">КОНТАКТИ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+            
+            <div class="contacts-header">
+            
+                <div class="container contacts">
+                    <div class="row">
+                      <div class="contact-item col-md-3 col-md-offset-3">
+                        <i class="fa fa-fax" aria-hidden="true"></i> 096 310 746
+                      </div>
+                      <div class="contact-item col-md-3">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i> Гр. Монтана, <br />ул. „Янтра” № 29
+                      </div>
+                    </div>
+            
+                    <div class="row">
+                      <div class="contact-item col-md-3 col-md-offset-3">
+                        <i class="fa fa-phone" aria-hidden="true"></i> 0888 930840
+                      </div>
+                      <div class="contact-item col-md-3">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i> inkomm@abv.bg
+                      </div>
+                    </div>
+                </div>
+            
+                <div class="container">
+                    <div class="row">
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <script>
+              function initMap() {
+                var uluru = {
+                    lat: 43.414749,
+                    lng: 23.2282767
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 17,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDonjoSNxECyhTr8L7xtbqMCefAkc7W_dM&callback=initMap"></script>
+            
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row text-center">
+                    All rights reserved @2016
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="/js/combined.1ae08cdf.js"></script>
+    </body>
+</html>
+
